@@ -8,13 +8,8 @@
     .left, .right {
         width: 100%;
     }
-    .left {
-        position: relative;
-    }
-    .right {
-        position: absolute;
-    }
 }
+
 body {
     font-family: Tahoma, sans-serif;
     letter-spacing: 1px;
@@ -86,24 +81,30 @@ h1 {
 }
 
 .run-buddy img {
-    width: 100%;
-    height: auto;
+    width: 700px;
+    height: 350px;
     object-fit: cover;
-    object-position: 10%;
+    object-position: top;
     border:rgb(95, 95, 95) 3px solid;
-    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .blank img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    object-position: 10%;
+    object-position: center;
     border:rgb(95, 95, 95) 3px solid;
-    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
-article {
+.blank {
     display: flex;
     flex-wrap: wrap;
 }
