@@ -1,10 +1,43 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body {
-    color: white;
-    font-family: Garamond, serif;
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 1px;
 }
+
+.column {
+    float: left;
+    padding: 25px;
+    height: 300px;
+}
+
+.left {
+    background-color: transparent;
+    width: 30%;
+}
+
+.left h3 {
+    font-weight: lighter;
+}
+
+.left nav ul li {
+    font-weight: lighter;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* RIGHT SIDE */
+.right {
+    background-color: transparent;
+    width: 70%;
+}
+
+h1 {
+    border-bottom: 3px solid pink;
+    margin-bottom: 30px;
+}
+
