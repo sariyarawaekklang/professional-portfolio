@@ -18,26 +18,73 @@ body {
 .left {
     background-color: transparent;
     width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .left h3 {
     font-weight: lighter;
+    color: rgb(95, 95, 95);
+    margin-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+
+.left nav {
+    margin-bottom: 15px;
 }
 
 .left nav ul li {
     font-weight: lighter;
+    font-size: small;
     list-style: none;
-    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
 }
 
 /* RIGHT SIDE */
 .right {
     background-color: transparent;
     width: 70%;
+    
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.right img {
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 10%;
+    border:rgb(95, 95, 95) 3px solid;
+    margin: 15px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
     border-bottom: 3px solid pink;
     margin-bottom: 30px;
+}
+
+
+p {
+    color: rgb(95, 95, 95);
 }
 
