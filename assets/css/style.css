@@ -9,18 +9,22 @@ body {
     letter-spacing: 1px;
 }
 
+
+p {
+    color: rgb(95, 95, 95);
+}
+
 .column {
     float: left;
     padding: 25px;
     height: 300px;
 }
 
+/* LEFT SIDE */
 .left {
     background-color: transparent;
     width: 30%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
 }
 
 .left img {
@@ -39,6 +43,8 @@ body {
 nav a {
     text-decoration: none;
     color: rgb(95, 95, 95);
+    display: flex;
+
 }
 
 .left nav {
@@ -51,6 +57,7 @@ nav a {
     list-style: none;
     margin-bottom: 5px;
     display: block;
+
 }
 
 /* RIGHT SIDE */
@@ -64,8 +71,22 @@ section {
     margin-bottom: 50px;
 }
 
-.right img {
-    width:300px;
+h1 {
+    border-bottom: 3px solid pink;
+    margin-bottom: 30px;
+}
+
+.run-buddy img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 10%;
+    border:rgb(95, 95, 95) 3px solid;
+    margin: 15px;
+}
+
+.blank img {
+    width: 300px;
     height: 300px;
     object-fit: cover;
     object-position: 10%;
@@ -78,13 +99,5 @@ article {
     flex-wrap: wrap;
 }
 
-h1 {
-    border-bottom: 3px solid pink;
-    margin-bottom: 30px;
-}
 
-
-p {
-    color: rgb(95, 95, 95);
-}
 
